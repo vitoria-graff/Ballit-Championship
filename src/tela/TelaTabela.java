@@ -64,7 +64,7 @@ public class TelaTabela extends JPanel {
         sb.append("Tabela de Classificação:\n");
         sb.append(String.format("%-20s %-10s %-10s %-10s %-10s\n", "Time", "Blots", "Plifs", "Advrunghs", "Pontos"));
         for (Time time : timesClassificados) {
-            sb.append(String.format("%-20s %-10d %-10d %-10d %-10d\n", time.getNome(), time.getTotalBlots(), time.getTotalPlifs(), time.getTotalAdvrunghs(), time.getPontos() + 50)); // Adicionando 50 pontos iniciais
+            sb.append(String.format("%-20s %-10d %-10d %-10d %-10d\n", time.getNome(), time.getTotalBlots(), time.getTotalPlifs(), time.getTotalAdvrunghs(), time.getPontos() + 50));
         }
         Time campeao = timesClassificados.get(0);
         sb.append("\nTime Campeão: ").append(campeao.getNome()).append("\n");

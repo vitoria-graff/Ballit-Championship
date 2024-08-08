@@ -40,7 +40,6 @@ public class TelaCadastroTimes {
             tituloPanel.add(tituloLabel);
             mainPanel.add(tituloPanel, BorderLayout.NORTH);
 
-
             JPanel inputPanel = new JPanel();
             inputPanel.setLayout(new GridBagLayout());
             inputPanel.setBackground(backgroundColor);

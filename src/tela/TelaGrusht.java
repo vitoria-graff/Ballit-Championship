@@ -66,7 +66,7 @@ public class TelaGrusht {
         gbc.anchor= GridBagConstraints.EAST;
         gritosPanel.add(time1Panel, gbc);
 
-        JLabel vsLabel = criarLabel("VS", new Font("SansSerif", Font.BOLD, 30), new Color(50, 18, 94)); // Alterado para preto
+        JLabel vsLabel = criarLabel("VS", new Font("SansSerif", Font.BOLD, 30), new Color(50, 18, 94));
         gbc.gridx= 1;
         gbc.gridy= 0;
         gbc.anchor= GridBagConstraints.CENTER;
